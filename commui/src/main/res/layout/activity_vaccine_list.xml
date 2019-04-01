@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_activity_grey_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/il_date_choose_title"
+        layout="@layout/view_common_title" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:divider="@color/line_bg"
+        android:dividerHeight="0.5dp"
+        >
+    </ListView>
+
+</LinearLayout>

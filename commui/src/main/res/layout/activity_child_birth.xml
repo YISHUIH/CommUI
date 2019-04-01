@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_activity_grey_bg">
+
+    <include
+        android:id="@+id/il_date_choose_title"
+        layout="@layout/view_common_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/il_date_choose_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="末次月经时间"
+            android:textColor="@color/theme_text_black"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/child_birth_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:textSize="@dimen/big_text_size"
+            android:gravity="right"
+            android:hint="请选择时间" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/tv_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_margin="15dp"
+        android:background="@drawable/select_theme1_pressed"
+        android:text="计算"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sure"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_sround3_white"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="测试结果"
+            android:textColor="@color/theme_text_grey"
+            android:textSize="@dimen/big_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/theme_line_dark_bg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/theme_text_black"
+                android:textSize="@dimen/big_text_size"
+                android:text="您的预产期" />
+            <TextView
+                android:id="@+id/child_birth_time1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/theme_text_theme"
+                android:textSize="@dimen/big_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/theme_text_black"
+                android:textSize="@dimen/big_text_size"
+                android:text="您已经怀孕" />
+            <TextView
+                android:id="@+id/child_birth_time2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/theme_text_theme"
+                android:textSize="@dimen/big_text_size" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/theme_text_black"
+                android:textSize="@dimen/big_text_size"
+                android:text="离宝宝出生"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/child_birth_time3_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/theme_text_theme"
+                android:textSize="@dimen/big_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jkwy.commui" >
+    <application
+        >
+        <activity android:name=".bim.BMIActivity"/>
+        <activity android:name=".yimiao.VaccineListActivity"/>
+        <activity android:name=".yucanqi.ChildBirthActivity"/>
+        <activity android:name=".yimiao.VaccineDetActivity"/>
+    </application>
+</manifest>
