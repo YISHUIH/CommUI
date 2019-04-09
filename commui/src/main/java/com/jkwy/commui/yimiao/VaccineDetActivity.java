@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.jkwy.commui.R;
 import com.jkwy.commui.base.BasicActivity;
-import com.jkwy.commui.yimiao.entry.VaccineList;
+import com.jkwy.commui.entry.VaccineList;
 
 /**
  * Created by tangzejin on 2016/9/22.

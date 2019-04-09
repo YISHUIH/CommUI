@@ -1,4 +1,4 @@
-package com.jkwy.commui.yimiao.entry;
+package com.jkwy.commui.entry;
 
 import android.os.Parcel;
 import android.os.Parcelable;

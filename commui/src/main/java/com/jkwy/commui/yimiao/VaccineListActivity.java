@@ -16,7 +16,7 @@ import com.alibaba.fastjson.JSON;
 
 import com.jkwy.commui.R;
 import com.jkwy.commui.base.BasicActivity;
-import com.jkwy.commui.yimiao.entry.VaccineList;
+import com.jkwy.commui.entry.VaccineList;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
